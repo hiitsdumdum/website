@@ -34,12 +34,12 @@ p{
 }
 
 .middle-container {
-  background-color: #93CFCA;
+  background-color: #CCF0ED;
 }
 
 .bottom-container {
-  background-color: #CCF0ED;
-  padding: 20px;
+  background-color: #93CFCA;
+  padding-top: 20px;
 }
 
 .pro {
@@ -108,7 +108,7 @@ p{
 .contact-me {
   background-color: #93CFCA;
   padding-bottom: 25px;
-  padding-top: 3px;
+  padding-top: 20px;
 }
 
 .btn {
