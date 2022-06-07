@@ -13,6 +13,11 @@ h1 {
   color: #6F9693;
 }
 
+@media (max-width: 400px){
+  .yes{
+    font-size: 5em;
+  }
+}
 h2 {
   font-family: 'Amiri', serif;
   font-weight: bolder;
