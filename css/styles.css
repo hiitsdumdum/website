@@ -26,6 +26,21 @@ p{
   line-height: 2;
 }
 
+.navbar-custom {
+  height: 4em;
+}
+
+@media all and (max-width: 500px) {
+  .navbar-custom{
+    height: 5em;
+  }
+
+  .moonimg{
+    width: 100%;
+  }
+}
+
+
 .top-container {
   background-color: #CCF0ED;
   position: relative;
