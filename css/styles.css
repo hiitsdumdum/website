@@ -28,22 +28,17 @@ p{
 
 
 
-@media all and (max-width: 500px) {
-
-  .moonimg{
-    max-width: 100%;
-    max-height: 100%
-  }
-
-}
-
-
 .top-container {
   background-color: #CCF0ED;
   position: relative;
   padding-top: 3.75em;
   height: 100vh;
   text-align: center;
+  overflow: hidden;
+}
+
+.moonimg{
+  position:static;
 }
 
 .middle-container {
