@@ -31,7 +31,8 @@ p{
 @media all and (max-width: 500px) {
 
   .moonimg{
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%
   }
 
 }
