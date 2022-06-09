@@ -1,5 +1,11 @@
+html {
+  margin: 0;
+  height: 100%;
+}
+
 body {
   margin: 0;
+  height: 100%;
   text-align: center;
   font-family: 'Vidaloka', serif;
 }
@@ -13,11 +19,12 @@ h1 {
   color: #6F9693;
 }
 
-@media (max-width: 400px){
-  .yes{
+@media (max-width: 400px) {
+  .yes {
     font-size: 5em;
   }
 }
+
 h2 {
   font-family: 'Amiri', serif;
   font-weight: bolder;
@@ -27,25 +34,24 @@ h3 {
   font-family: 'Amiri', serif;
 }
 
-p{
+p {
   line-height: 2;
 }
 
-.nav-link{
+.nav-link {
   font-size: 1.1em;
 }
 
 .top-container {
   background-color: #CCF0ED;
-
   padding-top: 7em;
   padding-bottom: 7em;
   text-align: center;
   overflow: hidden;
 }
 
-.moonimg{
-  position:static;
+.moonimg {
+  position: static;
   max-width: 100%;
   max-height: 100%;
 }
@@ -120,8 +126,6 @@ p{
   clear: left;
 }
 
-
-
 .contact-me {
   background-color: #93CFCA;
   padding-bottom: 25px;
@@ -178,14 +182,12 @@ hr {
 }
 
 .navbar-brand {
-  font-weight:bold;
+  font-weight: bold;
   letter-spacing: 0.05em;
 }
 
-
 /* moreaboutme */
-
-.top{
+.top {
   background-color: #CCF0ED;
   position: relative;
   padding-top: 60px;
@@ -193,31 +195,46 @@ hr {
 }
 
 @media (max-width: 500px) {
-  .abtme1{
+  .abtme1 {
     font-size: 1em;
   }
 }
-.skillname{
+
+.skillname {
   font-size: 2em;
   font-weight: bolder;
 }
 
-.middle-container{
+.middle-container {
   padding-top: 4em;
 }
 
-.skills{
+.skills {
   padding-bottom: 7em;
   overflow: hidden;
 }
 
-.hobby{
+.hobby {
   text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5),
-                2px -2px 0 rgba(255, 255, 255, 0.9);
+    2px -2px 0 rgba(255, 255, 255, 0.9);
 }
 
-
 /* both */
-.hehe{
+.hehe {
   font-size: 1.5em;
+}
+
+.bodyyes {
+  margin: 0;
+}
+
+iframe {
+  height: calc(100vh - 4px);
+  width: calc(100vw - 4px);
+}
+
+.buttonsblog {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: #CCF0ED;
 }
