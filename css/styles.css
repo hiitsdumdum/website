@@ -198,6 +198,11 @@ hr {
   .abtme1 {
     font-size: 1em;
   }
+
+  .ebook2{
+    width: 100%;
+  height: auto;
+  }
 }
 
 .skillname {
@@ -224,6 +229,10 @@ hr {
   font-size: 1.5em;
 }
 
+.hehe1{
+  font-size: 2em;
+}
+
 .bodyyes {
   margin: 0;
 }
@@ -237,4 +246,42 @@ iframe {
   padding-top: 2em;
   padding-bottom: 2em;
   background-color: #CCF0ED;
+}
+
+.ebook1{
+  float: right;
+}
+
+.ebook{
+  font-size: 1.3em;
+}
+
+.top-container1{
+  background-color: #CCF0ED;
+  padding: 50 50 50 100;
+}
+
+.buttons{
+position: relative;
+padding: 25 25 25 25;
+  background-color: #CCF0ED;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }
