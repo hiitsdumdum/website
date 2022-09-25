@@ -1,0 +1,308 @@
+html {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  text-align: center;
+  font-family: 'Vidaloka', serif;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 7em;
+  text-shadow: 0.1875em 0.1875em 0.1875em white;
+  line-height: 0.5;
+  color: #6F9693;
+}
+
+@media (max-width: 400px) {
+  .yes {
+    font-size: 5em;
+  }
+  .ebook1{
+    float: none;
+  }
+}
+
+h2 {
+  font-family: 'Amiri', serif;
+  font-weight: bolder;
+}
+
+h3 {
+  font-family: 'Amiri', serif;
+}
+
+p {
+  line-height: 2;
+}
+
+.nav-link {
+  font-size: 1.1em;
+}
+
+.top-container {
+  background-color: #CCF0ED;
+  padding-top: 7em;
+  padding-bottom: 7em;
+  text-align: center;
+  overflow: hidden;
+}
+
+.top1container {
+  background-color: #CCF0ED;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  text-align: center;
+  overflow: hidden;
+}
+
+.top2container {
+  background-color: #CCF0ED;
+  padding-top: 7em;
+  padding-bottom: 1em;
+  text-align: center;
+  overflow: hidden;
+}
+
+.moonimg {
+  position: static;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.middle-container {
+  background-color: #CCF0ED;
+}
+
+.bottom-container {
+  background-color: #93CFCA;
+  padding-top: 1.25em;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.skill-row {
+  width: 70%;
+  margin: 0.5em auto 0.5em auto;
+  text-align: left;
+  line-height: 1.3;
+}
+
+.blogimg {
+  float: left;
+  margin-right: 1em;
+}
+
+.codeimg {
+  float: right;
+  margin-left: 1em;
+}
+
+.graphicimg {
+  float: left;
+  margin-right: 1em;
+}
+
+.h22 {
+  font-weight: bold;
+  color: #6F9693
+}
+
+.balletimg {
+  float: right;
+  margin-left: 1em;
+}
+
+.guitarimg {
+  float: left;
+  margin-right: 1em;
+}
+
+.blogtext {
+  clear: right;
+}
+
+.graphictext {
+  clear: right;
+}
+
+.guitartext {
+  clear: right;
+}
+
+.codetext {
+  clear: left;
+}
+
+.ballettext {
+  clear: left;
+}
+
+.contact-me {
+  background-color: #93CFCA;
+  padding-bottom: 25px;
+  padding-top: 20px;
+}
+
+.btn {
+  border: 3px solid #6F9693;
+  padding: 5px;
+  margin: 2px;
+  color: #6F9693;
+  font-size: 15px;
+}
+
+.footer-link {
+  margin-top: 5px
+}
+
+.contact-row {
+  width: 50%;
+  margin: 25px auto 25px auto;
+  text-align: left;
+  line-height: 1.3;
+}
+
+.instaimg, .sappimg {
+  float: left;
+  margin-right: 30px;
+  width: 5%;
+  height: 5%;
+}
+
+.moonimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h11 {
+  margin-top: 0;
+  font-weight: bolder;
+}
+
+hr {
+  border-color: #CCF0ED;
+  border-style: dotted none none;
+  height: 0;
+  border-width: 7px;
+  width: 5%;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+/* moreaboutme */
+.top {
+  background-color: #CCF0ED;
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media (max-width: 500px) {
+  .abtme1 {
+    font-size: 1em;
+  }
+
+  .ebook2{
+    width: 100%;
+  height: auto;
+  }
+}
+
+.skillname {
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.middle-container {
+  padding-top: 4em;
+}
+
+.skills {
+  padding-bottom: 7em;
+  overflow: hidden;
+}
+
+.hobby {
+  text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.5),
+    2px -2px 0 rgba(255, 255, 255, 0.9);
+}
+
+/* both */
+.hehe {
+  font-size: 1.5em;
+}
+
+.hehe1{
+  font-size: 3em;
+}
+
+.bodyyes {
+  margin: 0;
+}
+
+iframe {
+  height: calc(100vh - 4px);
+  width: calc(100vw - 4px);
+}
+
+.buttonsblog {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: #CCF0ED;
+}
+
+.ebook1{
+  float: right;
+}
+
+.ebook{
+  font-size: 1.3em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.top-container1{
+  background-color: #CCF0ED;
+  padding: 50 50 50 100;
+}
+
+.buttons{
+position: relative;
+padding: 25 25 25 25;
+  background-color: #CCF0ED;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
