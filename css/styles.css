@@ -19,12 +19,15 @@ h1 {
   color: #6F9693;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .yes {
     font-size: 5em;
   }
   .ebook1{
     float: none;
+    margin: auto;
+    width: 65%;
+    display: block;
   }
 }
 
@@ -65,9 +68,12 @@ p {
   background-color: #CCF0ED;
   padding-top: 7em;
   padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
   text-align: center;
   overflow: hidden;
 }
+
 
 .moonimg {
   position: static;
